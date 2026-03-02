@@ -2,6 +2,7 @@ body {
     font-family: "Roboto";
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 ul {
@@ -9,10 +10,19 @@ ul {
     margin: 0;
 }
 
+.header,
+.hero,
+.items,
+.content {
+    width: 1000px;
+}
+
 /* ===== header-block + footer-block ===== */
 .hero-block,
 .footer-block {
     background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero .main-text {
@@ -33,7 +43,7 @@ ul {
     font-size: 24px;
 }
 
-.header {
+.hero-block .header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -53,6 +63,12 @@ ul {
     gap: 16px;
 }
 
+.hero .text-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .hero-block {
     padding: 12px 48px;
     display: flex;
@@ -66,14 +82,15 @@ ul {
 }
 
 .hero img {
+    object-fit: cover;
     min-width: 500px;
     min-height: 200px;
     width: 500px;
-    height: auto;
+    height: 220px;
     background-color: grey;
 }
 
-/* ===== info-block ===== */
+/* ===== footer-block ===== */
 .footer-block {
     text-align: center;
     padding: 36px;
@@ -84,6 +101,7 @@ ul {
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
+    text-align: center;
 }
  
 .items {
@@ -126,13 +144,16 @@ button {
     background-color: #3882F6;
     padding: 12px 36px;
     border-radius: 12px;
-    margin: 12px 0px;
+    flex: none;
+    width: 150px;
 }
 
 /* ===== quote-block ===== */
 .quote-block {
     background-color: #E5E7EB;
     padding: 120px 120px 84px;
+    display: flex;
+    justify-content: center;
 }
 
 .quote-block .text {
@@ -152,6 +173,13 @@ button {
 
 /* ===== action-call-block ===== */
 .action-call-block {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-call-block .content {
     background-color: #3882F6;
     color: white;
     padding: 36px 100px;
@@ -160,6 +188,7 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .action-call-block .main-text {
