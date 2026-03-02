@@ -72,6 +72,12 @@ ul {
 }
 
 /* ===== info-block ===== */
+.footer-block {
+    text-align: center;
+    padding: 36px;
+}
+
+/* ===== info-block ===== */
 .info-block .header {
     color: #1F2937;
     font-size: 36px;
