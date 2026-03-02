@@ -144,4 +144,25 @@ button {
 /* ===== action-call-block ===== */
 .action-call-block {
     background-color: #3882F6;
+    color: white;
+    padding: 36px 100px;
+    margin: 80px 50px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-call-block .main-text {
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.action-call-block .sub-text {
+    color: #E5E7EB;
+}
+
+.action-call-block button {
+    border-color: #F9FAF8;
 }
