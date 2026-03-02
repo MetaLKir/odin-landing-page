@@ -88,14 +88,14 @@ ul {
 .item {
     display: flex;
     flex-direction: column;
-    width: 150px;
+    width: 140px;
     text-align: center;
     gap: 12px;
 }
 
 .item img {
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
     border-radius: 12px;
     outline: 3px solid #3882F6;
    
@@ -120,14 +120,10 @@ button {
     margin: 12px 0px;
 }
 
-/* ===== action-call-block ===== */
-.action-call-block {
-    background-color: #3882F6;
-}
-
 /* ===== quote-block ===== */
 .quote-block {
     background-color: #E5E7EB;
+    padding: 120px 120px 84px;
 }
 
 .quote-block .text {
@@ -135,4 +131,17 @@ button {
     font-size: 36px;
     font-weight: 300;
     font-style: italic;
+    margin-bottom: 12px;
+}
+
+.quote-block .signature {
+    text-align: end;
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0px 48px;
+}
+
+/* ===== action-call-block ===== */
+.action-call-block {
+    background-color: #3882F6;
 }
