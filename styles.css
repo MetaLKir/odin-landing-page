@@ -68,6 +68,8 @@ ul {
 .hero img {
     min-width: 500px;
     min-height: 200px;
+    width: 500px;
+    height: auto;
     background-color: grey;
 }
 
@@ -100,6 +102,7 @@ ul {
 }
 
 .item img {
+    object-fit: cover;
     width: 140px;
     height: 140px;
     border-radius: 12px;
