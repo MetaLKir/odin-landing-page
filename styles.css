@@ -1,0 +1,56 @@
+body {
+    font-family: "Roboto";
+}
+
+/* ===== header-block + footer-block ===== */
+.hero-block,
+.footer-block {
+    background-color: #1F2937;
+}
+
+.hero .main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero .secondary-text,
+.header .links,
+.footer-block {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header .logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+/* ===== info-block ===== */
+.info-block .header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+/* ===== button ===== */
+button {
+    background-color: #3882F6;
+}
+
+/* ===== action-call-block ===== */
+.action-call-block {
+    background-color: #3882F6;
+}
+
+/* ===== quote-block ===== */
+.quote-block {
+    background-color: #E5E7EB;
+}
+
+.quote-block .text {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
