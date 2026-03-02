@@ -1,5 +1,7 @@
 body {
     font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
 }
 
 ul {
@@ -31,8 +33,9 @@ ul {
     font-size: 24px;
 }
 
-.hero-block .header {
+.header {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
@@ -52,6 +55,8 @@ ul {
 
 .hero-block {
     padding: 12px 48px;
+    display: flex;
+    flex-direction: column;
 }
 
 .hero {
@@ -71,6 +76,38 @@ ul {
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
+}
+ 
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+    justify-content: space-evenly;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    text-align: center;
+    gap: 12px;
+}
+
+.item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
+    outline: 3px solid #3882F6;
+   
+}
+
+.info-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    padding: 48px 48px 100px;
 }
 
 /* ===== button ===== */
